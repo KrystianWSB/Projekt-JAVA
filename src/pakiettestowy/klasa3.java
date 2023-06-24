@@ -12,6 +12,12 @@ public class TestClass {
         // Testowanie funkcjonalności klas ClassA i ClassB
         ClassA classA = new ClassA();
         ClassB classB = new ClassB();
-        // ...
+
+        // Wywołanie metody calculate z klasy ClassA
+        int result = classA.calculate(5, 3);
+        System.out.println("Wynik obliczeń: " + result);
+
+        // Wywołanie metody displayMessage z klasy ClassB
+        classB.displayMessage("Hello, World!");
     }
 }
