@@ -14,5 +14,6 @@ public class ClassA {
      */
     public int calculate(int x, int y) {
         // Implementacja metody calculate
+        return x + y;
     }
 }
