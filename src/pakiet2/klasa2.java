@@ -6,9 +6,12 @@ package com.example.package2;
  */
 public class ClassB {
     /**
-     * Metoda wykonująca coś.
+     * Metoda wyświetlająca tekst.
+     *
+     * @param message wiadomość do wyświetlenia
      */
-    public void performAction() {
-        // Implementacja metody performAction
+    public void displayMessage(String message) {
+        // Implementacja metody displayMessage
+        System.out.println(message);
     }
 }
